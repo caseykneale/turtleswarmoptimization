@@ -10,7 +10,7 @@ The turtle swarm optimizer (TSO) is similar to the famous particle swarm optimiz
    - This ensures that every nook and cranny of the objective function is inspected :mag:.
  - The social and personal motivation terms are not configurable.
    - We don't know exactly what motivates turtles to do what they do, so its honest to leave these terms unweighted and equal components of the turtles velocity. Staying true to the :turtle: is very important.
-   - Although this new algorithm wasn't written for performance, this design decision greatly speeds up the velocity calculations by dropping rng syscalls :rocket::rocket::rocket:.
+   - Although this new algorithm wasn't written for performance, this design decision greatly speeds up the velocity calculations by dropping slow calls to random number generators :rocket::rocket::rocket:.
  - The TSO does not allow a user to bail out of optimization early. No. The user must wait until their presdescribed goal is obtained.
    - This is done so that end-users get the feeling of what its like to rely on turtles to do the heavy lifting :muscle:.
 
