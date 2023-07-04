@@ -1,0 +1,9 @@
+[package]
+name = "turtle_swarm_optimizer"
+author = "Dr. Casey Knealse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15"
+ndarray-rand = "0.14"
